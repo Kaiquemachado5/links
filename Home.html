@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinksC - Best Seller Show</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #000000, #1a0000);
+      color: white;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .curtains {
+      background: url('https://i.imgur.com/7QqGd1a.jpg') no-repeat center top;
+      background-size: cover;
+      width: 100%;
+      height: 200px;
+    }
+
+    .stage {
+      background: radial-gradient(circle at center, #400000 0%, #000000 100%);
+      width: 100%;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: inset 0 0 50px rgba(255, 0, 0, 0.3);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #ff4500;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .links a {
+      display: block;
+      padding: 15px;
+      background-color: #1a1a1a;
+      color: white;
+      text-decoration: none;
+      border: 2px solid #ff0000;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .links a:hover {
+      background-color: #ff0000;
+      color: #fff;
+      transform: scale(1.05);
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="curtains"></div>
+  <div class="stage">
+    <h1>Best Seller Show</h1>
+    <div class="links">
+      <a href="https://youtube.com" target="_blank">YouTube</a>
+      <a href="https://tiktok.com" target="_blank">TikTok</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://x.com" target="_blank">X (Twitter)</a>
+      <a href="https://threads.net" target="_blank">Threads</a>
+      <a href="#biblioteca" target="_blank">Biblioteca Best Seller Show</a>
+    </div>
+    <div class="footer">&copy; 2025 Best Seller Show - Todos os direitos reservados</div>
+  </div>
+</body>
+</html>
